@@ -1,5 +1,52 @@
 .body-color{
     background-color: rgb(241, 233, 158);
-    height: 50px;
+    height: 150px;
     margin: 0px;
 }
+
+/* Style all font awesome icons */
+.fa {
+    padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .col-xs-6{
+    width: 50%;
+    display: block;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
