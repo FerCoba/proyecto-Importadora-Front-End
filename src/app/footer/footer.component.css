@@ -1,7 +1,8 @@
-.body-color{
+.body-color-footer{
     background-color: rgb(241, 233, 158);
-    height: 0px;
-    margin: 0px;
+    height: 50px;
+    margin-top: -60px;
+    width: 1200px;
 }
 
 .fa {
@@ -38,13 +39,22 @@
     color: white;
   }
   
-  .col-xs-6{
-    width: 50%;
+  /*.col-xs-12{
+    width: 0%;
+    height: 0%;
     display: block;
     margin-left: 0%;
     margin-right: 0%;
-  }
+  }*/
 
   .oblique-font {
     font-style: oblique;
+  }
+
+  .labels{
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 55px;
   }

@@ -1,7 +1,8 @@
-.body-color{
+.body-color-component{
     background-color: rgb(241, 233, 158);
-    height: 500px;
+    height: 664px;
     margin: 0px;
+    width: 1364px;
 }
 .container-fluid{
     height: 100%;
