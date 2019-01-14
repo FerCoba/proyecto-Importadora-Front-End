@@ -24,16 +24,6 @@
     margin: auto;
   }
 
-  #login{
-    position: absolute;
-    width: 50;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; 
-    margin: auto;
-  }
-
   #iniciar-cesion-id{
     position: absolute;
     width: 100px;
@@ -43,7 +33,23 @@
     bottom: 0px;
     margin: auto;
   }
-  
-a{
+
+.oblique-font {
+    font-style: oblique;
     font-weight: bold;
-  }
+}
+
+.user-icon {
+    left: 0%;
+    a {
+         display: inline-block;
+     }
+      i {
+       color: black;
+        font-size: 24px;
+        position: relative;
+        top: 2px;
+       left: -3px;
+       margin: 2px 5px;
+     }
+   }

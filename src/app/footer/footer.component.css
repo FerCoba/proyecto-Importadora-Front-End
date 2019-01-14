@@ -1,10 +1,9 @@
 .body-color{
     background-color: rgb(241, 233, 158);
-    height: 150px;
+    height: 0px;
     margin: 0px;
 }
 
-/* Style all font awesome icons */
 .fa {
     padding: 5px;
   font-size: 20px;
@@ -15,20 +14,15 @@
   border-radius: 50%;
   }
   
-  /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
   }
   
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
   .fa-facebook {
     background: #3B5998;
     color: white;
   }
   
-  /* Twitter */
   .fa-twitter {
     background: #55ACEE;
     color: white;
@@ -49,4 +43,8 @@
     display: block;
     margin-left: 0%;
     margin-right: 0%;
+  }
+
+  .oblique-font {
+    font-style: oblique;
   }
