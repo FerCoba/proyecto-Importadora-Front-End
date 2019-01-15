@@ -23,20 +23,22 @@
     .user-icon {
     left: 0%;
     a {
-         display: inline-block;
+         /*display: inline-block;*/
+         right: 300px;
      }
       i {
        color: white;
         font-size: 24px;
         position: relative;
-        top: 2px;
-       left: -3px;
-       margin: 2px 5px;
+        top: 200px;
+        left: 300px;
+        margin: 2px 5px;
      }
    }
   
     .nav-link {
       padding: .5rem 0.25rem;
+      margin-left: 55px;
      color: #ffffff;
      i {
        &.fas {
@@ -63,4 +65,29 @@
       }
     }
   }
+  .body-color-header{
+    background-color: rgb(241, 233, 158);
+    height: 50px;
+    margin-top: 0px;
+    width: 1364px;
+  }
+
+  .label-login{
+    display: inline-block;
+    max-width: 50%;
+    margin-top: 25px;
+    margin-left: 300px;
+  }
   
+  .a{
+    /*display: inline-block;*/
+    right: 300px;
+  }
+
+  .labels{
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 1230px;
+  }
