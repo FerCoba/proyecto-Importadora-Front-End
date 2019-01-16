@@ -11,6 +11,7 @@ import { SysAdminComponent } from './sys-admin/sys-admin.component';
 import { HeaderComponent } from './header/header.component';
 import { ButtonsComponent } from './buttons/buttons.component';
 import { FooterComponent } from './footer/footer.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FooterComponent } from './footer/footer.component';
     SysAdminComponent,
     HeaderComponent,
     ButtonsComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule
