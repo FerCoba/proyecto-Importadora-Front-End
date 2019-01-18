@@ -1,10 +1,25 @@
 <body class="body-color-login-component">
-  <form>
-    <div class="form-group">
-      <label>Usuario</label>
-      <input type="text" class="form-control" id="inputUsuario" placeholder="Ingrese su usuario">
+  <div class="container">
+    <div class="row-md-12" style="height:100%; width:100%;">
+      <form>
+
+        <div class="col-md-4"></div>
+        <div class="col-md-4 col-centered">
+          <div class="form-group">
+            <input type="text" class="input-usuario" id="inputUsuario" placeholder="Usuario">
+            <br>
+            <br>
+            <input type="password" class="input-password" id="inputContraseña" placeholder="Contraseña">
+            <br>
+            <br>
+            <button type="submit" class="btn btn-aceptar" value="Aceptar">Aceptar</button>
+            <button type="button" class="btn btn-cancelar" value="Cancelar">Cancelar</button>
+          </div>
+        </div>
+        <div class="col-md-4"></div>
+      </form>
     </div>
-  </form>
+  </div>
 </body>
 <footer>
   <app-footer></app-footer>
