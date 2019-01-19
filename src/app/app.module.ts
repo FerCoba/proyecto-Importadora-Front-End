@@ -32,6 +32,6 @@ import { LoginComponent } from './login/login.component';
   ],
   providers: [],
   //bootstrap: [AppComponent] -- Original que debe de quedar
-  bootstrap: [LoginComponent]
+  bootstrap: [ButtonsComponent]
 })
 export class AppModule { }
