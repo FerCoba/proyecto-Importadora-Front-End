@@ -6,6 +6,11 @@
     color: black;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
 
 .dropdown-submenu {
     position: relative;
