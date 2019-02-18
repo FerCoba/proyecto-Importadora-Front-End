@@ -2,19 +2,23 @@
     background-color: rgb(241, 233, 158);
     height: 50px;
     margin-top: -56px;
-    width: 1200px;
+    width: 1350px;
 }
 
 .fa {
     padding: 5px;
-  font-size: 20px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
   }
   
+div {
+  height: 0px;
+}
+
   .fa:hover {
     opacity: 0.7;
   }
@@ -22,35 +26,60 @@
   .fa-facebook {
     background: #3B5998;
     color: white;
+    margin-top: 23px;
   }
   
   .fa-twitter {
     background: #55ACEE;
     color: white;
+    margin-top: 23px;
   }
 
   .fa-youtube {
     background: #bb0000;
     color: white;
+    margin-top: 23px;
+  }
+
+  .class-position {
+    margin-left: 1150px;
+
   }
 
   .fa-instagram {
     background: #125688;
     color: white;
+    margin-top: 23px;
   }
   
-  .col-xs-4 {
+  .col-xs-3 {
     width: 30%;
-    left: 150px;;
-  }
-  .oblique-font {
-    font-style: oblique;
+    left: 200px;;
   }
 
-  .labels{
+  .col-xs-6 {
+    width: 60%;
+    left: 100px;;
+  }
+
+  .labels-direccion{
     display: inline-block;
     max-width: 100%;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 23px;
     margin-left: 55px;
+  }
+
+  .label-seguinos {
+    max-width: 100%;
+    font-weight: 700;
+    margin-top: 23px;
+    margin-left: 1030px;
+    width: 100px;
+  }
+
+  .fa-user-circle-o {
+    content: "\f2be";
+    padding-top: 20px;
+    padding-left: 256px;
   }

@@ -6,12 +6,6 @@
     color: black;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-    background-color: transparent;
-}
-
 .dropdown-submenu {
     position: relative;
 }
@@ -72,3 +66,27 @@ a {
     margin-top: 20px;
     margin-left: 0px;
 }
+
+.fa-user-circle-o {
+    content: "\f2be";
+    padding-top: 20px;
+    padding-left: 256px;
+    margin-left: 400px;
+  }
+
+  .fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    
+  }

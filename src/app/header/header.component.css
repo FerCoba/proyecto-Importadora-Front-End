@@ -59,8 +59,12 @@
     margin-left: 300px;
   }
 
-  .fa-user-circle-o {
-    content: "\f2be";
-    padding-top: 20px;
-    padding-left: 256px;
+  .fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
   }
