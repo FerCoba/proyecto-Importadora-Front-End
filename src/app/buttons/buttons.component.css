@@ -1,5 +1,6 @@
 .bg-dark {
     background-color: #F2F4F4!important;
+    width: 1364px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -67,11 +68,12 @@
     margin-left: 0px;
 }
 
-.fa-user-circle-o {
+ .fa-user-circle-o {
     content: "\f2be";
     padding-top: 20px;
     padding-left: 256px;
-    margin-left: 400px;
+    color: #337ab7; 
+    margin-left: 500px;
   }
 
   .fa {
@@ -82,11 +84,4 @@
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-  }
-
-  a {
-    color: black;
-    text-decoration: none;
-    background-color: transparent;
-    
   }
