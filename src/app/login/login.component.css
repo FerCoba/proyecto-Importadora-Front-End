@@ -23,6 +23,7 @@
     margin-top: 50px;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin-left: 400px;
 }
 
 .input-password {
@@ -38,6 +39,7 @@
     margin-top: 0px;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin-left: 400px;
 }
 
 .col-centered {
@@ -54,16 +56,21 @@
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
-    width: 80px;
+    width: 100px;
     height: 40px;
     margin-right: 5px;
+    margin-left: 435px;
+    margin-top: -15px;
 }
 
 .btn-cancelar {
     color: #fff;
     background-color: red;
     border-color: red;
-    width: 80px;
+    width: 100px;
     height: 40px;
     margin-right: 5px;
+    margin-left: 555px;
+    margin-top: -67px;
+
 }

@@ -31,7 +31,7 @@ import { LoginComponent } from './login/login.component';
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
-  //bootstrap: [ButtonsComponent]
+  //bootstrap: [AppComponent]
+  bootstrap: [LoginComponent]
 })
 export class AppModule { }
